@@ -1,1 +1,14 @@
-PermissionsEx/permissions.yml
+groups:
+ Default:
+ permissions:
+ - modifyworld.*
+ - essentials.home
+ - essentials.spawn
+ perfix:' &e[Guest]&f'
+ Members:
+   default:flase
+    permissions:
+ - modifyworld.*
+ perfix:' &2[Member]
+ inheritance:
+ - Default
